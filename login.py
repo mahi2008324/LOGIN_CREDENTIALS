@@ -25,7 +25,7 @@ class Login_credentials:
             return
 
         email = input("PLEASE ENTER THE EMAIL ID : ")         #email enetring
-        if email.endswith("@gamil.com"):                      #checks email ends with @gmail.com
+        if email.endswith("@gmail.com"):                      #checks email ends with @gmail.com
             pass
         else:                                                  #if not  takes to re-signup
             print("GIVE VALID EMAIL")
